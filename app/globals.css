@@ -16,19 +16,19 @@ body {
 
 @layer utilities {
   .btn_white { 
-    @apply  border-white bg-white px-8 py-3 text-green-50
+    @apply  border-white bg-white px-8 py-3 text-green-50 transition ease-linear delay-150 hover:scale-110 duration-300
   }
   .btn_white_text  { 
-    @apply  border-white bg-white px-8 py-3 text-gray-90
+    @apply  px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-800 text-white transition ease-in-out delay-150 hover:scale-110 duration-300
   }
   .btn_green  { 
-    @apply  border-green-50 bg-green-50 px-8 py-5 text-white
+    @apply   px-8 py-5 text-white bg-gradient-to-r from-green-400 to-cyan-600 transition ease-in-out delay-150 hover:scale-110 duration-300
   }
   .btn_dark_green { 
-    @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
+    @apply bg-gradient-to-r from-green-400 to-cyan-600 px-8 py-4 text-white transition ease-in-out delay-150 hover:scale-110 duration-300
   }
   .btn_dark_green_outline  { 
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white
+    @apply border-gray-20 bg-green-90 px-8 py-5 text-white transition ease-linear delay-150 hover:scale-110 duration-300
   }
   
   .max-container {

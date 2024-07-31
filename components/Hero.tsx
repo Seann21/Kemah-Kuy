@@ -14,7 +14,7 @@ const Hero = () => {
         height={50}
         className='absolute left-[-18px] top-[-45px] w-10 lg:w-[50px]'
       />
-      <h1 className='bold-52 lg:bold-88'>Temukan Kemah<br />Impianmu!</h1>
+      <h1 className='bold-52 lg:bold-88 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Temukan Kemah<br />Impianmu!</h1>
       <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'><span className='font-semibold text-green-600/80 text-2xl'>Selamat datang di KemahKuy!</span><br />Temukan destinasi berkemah terbaik di Indonesia, dari pantai eksotis hingga pegunungan menakjubkan. Rencanakan perjalanan berkemah impian Anda dengan informasi lengkap tentang lokasi, fasilitas, dan tips berguna. Mulailah petualangan tak terlupakan Anda sekarang!</p>
     
       <div className='my-11 flex flex-wrap gap-5'>
@@ -45,14 +45,14 @@ const Hero = () => {
            <Button
             type='button'
             title="Cara kerja?"
-            icon='/play.svg'
+            icon='/playing.png'
             variant="btn_white_text" 
             />   
       </div>
       </div>
 
       <div className='relative flex flex-1 items-start mr-16'>
-            <div className='relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8'>
+            <div className='relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 cursor-pointer'>
               <div className="flex flex-col">
                 <div className="flexBetween">
                   <p className='regular-16 text-gray-20 '>Lokasi</p>

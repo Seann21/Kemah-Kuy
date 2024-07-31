@@ -25,7 +25,7 @@ const Features = () => {
                 width={50}
                 className='absolute left-[-5px] top-[-50px] w-10 lg:w-[50px]'
                 />
-                <h2 className='bold-40 lg:bold-64'>Aplikasi Kita itu</h2>
+                <h2 className='bold-40 lg:bold-64 bg-gradient-to-r from-yellow-600 via-lime-500 to-cyan-600 inline-block text-transparent bg-clip-text'>Aplikasi Kita itu</h2>
               </div>
               <ul className='mt-10 grid gap-10 md:grid-cols-2 lg:mt-20 lg:gap-20'>
                 {FEATURES.map((feature) => (

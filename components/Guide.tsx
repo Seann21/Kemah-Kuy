@@ -4,7 +4,7 @@ import React from 'react'
 const Guide = () => {
   return (
     <section className='flexCenter flex-col'>
-        <div className='border-2 border-indigo-500 padding-container max-container w-full pb-24'>
+        <div className=' padding-container max-container w-full pb-24'>
           <Image
            src='/camp.svg' 
            alt='camp'
@@ -15,12 +15,12 @@ const Guide = () => {
             Kita Disini buat kamu
           </p>
           <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-              <h2 className='bold-40 lg:bold-64 xl:max-w-[390px]'>Petunjuk untuk memudahkan kamu</h2>
-              <p className='regular-16 text-gray-30 xl:max-w-[520px]'>KemahKuy adalah aplikasi yang dirancang untuk memudahkan para pecinta alam dalam merencanakan perjalanan berkemah di seluruh Indonesia dengan berbagai fitur yang memudahkan.</p>
+              <h2 className='bold-40 lg:bold-64 xl:max-w-[390px] bg-gradient-to-r from-green-50 to-cyan-600 inline-block text-transparent bg-clip-text'>Petunjuk Buatmu</h2>
+              <p className='text-2xl text-gray-30 xl:max-w-[520px] '><strong>KemahKuy adalah </strong> aplikasi yang dirancang untuk memudahkan para pecinta alam dalam merencanakan perjalanan berkemah di seluruh Indonesia dengan berbagai fitur yang memudahkan.</p>
           </div>
         </div>
 
-        <div className='flexCenter max-container relative w-full border-2 border-indigo-500'>
+        <div className='flexCenter max-container relative w-full'>
           <Image
             src='/boat.png'
             alt='boat'
