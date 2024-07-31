@@ -1,6 +1,6 @@
 <h1 align="center"> Kemah Kuy </h1>
 
-![Preview](public/Kemah Yuk.png)
+![Preview](public/Kemah%20Yuk.png)
 
 Kemah Kuy is a landing page designed to facilitate camping or hiking trips by providing comprehensive information about locations, facilities, and camping tips in Indonesia. 
 
